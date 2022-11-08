@@ -1,0 +1,173 @@
+/*************************************************************************************************************************************
+   # STYLE CSS
+*************************************************************************************************************************************/
+:root {
+/*************************************************************************************************************************************
+   # CUSTOM STYLE
+*************************************************************************************************************************************/  
+   --white: #fff;
+   --black: #000;
+   --orange: #FE6B01;
+   --grey-2D: #2D2D2D;
+
+   /***********************************************************
+      # Typography
+   ************************************************************/
+   --fw-300: 300;
+   --fw-400: 400;
+   --fw-500: 500;
+   --fw-600: 600;
+   --fw-700: 700;
+   --fw-800: 800;
+   --fw-900: 900;
+
+}
+
+
+/*************************************************************************************************************************************
+   # RESUED
+*************************************************************************************************************************************/
+.main-container { width: 90%; margin: 0 auto; }
+
+/***********************************************************
+   # Buttons
+************************************************************/
+.btn-primary {
+   border: 0;
+   background: linear-gradient(180deg, #FFAA6D 0%, #FE6B01 100%);
+   border-radius: 10px;
+   padding: 17px 89px;
+
+   font-weight: var(--fw-400);
+   font-size: 20px;
+   line-height: 24px;
+   color: var(--grey-2D);
+}
+
+
+/*************************************************************************************************************************************
+   # MAIN STYLE
+*************************************************************************************************************************************/
+.head {
+   width: 100%;
+   background: var(--white);
+
+   padding-top: 71px;
+}
+
+.head__header { 
+   display: flex;
+   justify-content: space-between; 
+   position: relative;
+
+   margin-bottom: 164px;
+}
+
+.head__header-info {
+   display: flex;
+   gap: 87px;
+}
+
+.header-info-working-hours {
+   font-weight: var(--fw-300);
+   font-size: 17px;
+   line-height: 21px;
+   color: var(--black);
+
+   display: flex;
+   gap: 12px;
+}
+
+.header-info-working-hours__txt-data {
+   display: flex;
+   flex-direction: column;
+}
+
+.header-info-tel { display: flex; gap: 12px; }
+
+.header-info-tel__txt-data {
+   font-weight: var(--fw-300);
+   font-size: 17px;
+   line-height: 21px;
+   color: var(--black);
+}
+
+/***********************************************************
+   # Header Mobile
+************************************************************/
+.head__header-mobile {
+   border: 0;
+   border-radius: 10px;
+   opacity: 1;
+
+   position: absolute;
+   top: 20px;
+   right: 0;
+
+   display: none;
+}
+
+.header-mobile-line {
+   width: 44px;
+   height: 3px;
+   transition: 0.25s ease;
+
+   border: 0;
+   background: var(--black);
+}
+
+.head__header-mobile.active .line-first { transform: translateY(16px) rotate(45deg); }
+.head__header-mobile.active .line-second { visibility: hidden; transition: 0.01s; }
+.head__header-mobile.active .line-third { transform: translateY(-16px) rotate(-45deg); }
+
+
+/***********************************************************
+   # Header Overlay
+************************************************************/
+.overlay {
+   width: 100%;
+   height: 100vh;
+   position: fixed;
+   background: var(--white);
+   top: 190px;
+   left: 0;
+   opacity: 0;
+   z-index: -1;
+}
+
+.head__main {
+   position: relative;
+}
+
+.head__main-img {
+   position: absolute;
+   right: 0;
+   top: -40%;
+}
+
+.head__main-woman-img { 
+   position: absolute;
+   top: -24%;
+   right: 0;
+   
+   display: none; 
+}
+
+.head__main-title {
+   width: 50%;
+   font-weight: var(--fw-700);
+   font-size: 50px;
+   line-height: 61px;
+   color: var(--grey-2D);
+
+   margin-bottom: 9px;
+}
+
+.head__main-subtitle {
+   font-weight: var(--fw-400);
+   font-size: 30px;
+   line-height: 37px;
+   color: var(--grey-2D);
+   margin-bottom: 41px;
+}
+
