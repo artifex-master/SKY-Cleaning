@@ -20,6 +20,14 @@
       font-size: 18px;
    }
 
+   .our-clients__slider-item {
+      flex: 0 0 45%;
+      display: flex;
+      justify-content: center;
+   }
+
+   .est { display: none; }
+
 }
 
 @media only screen and (max-width: 1528px) {

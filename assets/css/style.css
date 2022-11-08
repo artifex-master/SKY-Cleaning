@@ -235,3 +235,49 @@
    display: flex;
    justify-content: center;
 }
+
+
+/*************************************************************************************************************************************
+   # Наши клиенты
+*************************************************************************************************************************************/
+.our-clients__outer {
+   width: 100%;
+   padding-top: 98px;
+   padding-bottom: 33px;
+
+}
+
+.our-clients__title {
+   font-weight: var(--fw-700);
+   font-size: 25px;
+   line-height: 30px;
+   display: flex;
+   justify-content: center;
+
+   margin-bottom: 96px;
+}
+
+.our-clients__slider {
+   display: flex;
+   justify-content: center;
+
+   position: relative;
+}
+
+.our-clients__slider-item {
+   flex: 0 0 25%;
+   display: flex;
+   justify-content: center;
+}
+
+.our-clients__slider-arrow-left {
+   position: absolute;
+   top: 50%;
+   left: 0;
+}
+
+.our-clients__slider-arrow-right {
+   position: absolute;
+   top: 50%;
+   right: 0;
+}
