@@ -24,8 +24,8 @@ span { display: inline-block; }
 
 html {
    font-family: 'Inter', sans-serif;
-   scroll-behavior: smooth;
    overscroll-behavior: contain;
+   overflow: visible;
 }
 
 input {

@@ -105,12 +105,15 @@
 @media only screen and (max-width: 1059px) {
    .head__main-title {
       width: 60%;
-
    }  
     
    .head__main-img {
       width: 393px;
       height: 312px;
+   }
+
+   .services__flex-item {
+      flex: 50%;
    }
 
 }
@@ -178,6 +181,21 @@
       top: 207px;
    }
 
+   .services__inner {
+      padding-top: 142px;
+   }
+
+   .services__flex-item {
+      flex: 100%;
+   }
+
+   .services__btn button {
+      font-size: 17px;
+   }
+
+   .services__flex-item-txt p {
+      width: 80%;
+   }
 }
 
 @media only screen and (max-width: 600px) {
@@ -251,6 +269,7 @@
    .overlay.active {
       opacity: 0.9;
       z-index: 5;
+
    }
 
    .head__header-mobile {
