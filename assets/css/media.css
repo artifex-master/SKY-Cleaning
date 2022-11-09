@@ -1,6 +1,13 @@
 /*************************************************************************************************************************************
    # RESPONSIVENESS
 *************************************************************************************************************************************/
+@media only screen and (max-width: 1751px) {
+   .our-clients__flex-item {
+      flex: 0 0 50%;
+   }
+
+}
+
 @media only screen and (max-width: 1613px) {
    .head__main-img {
       width: 600px;
@@ -28,6 +35,16 @@
 
    .est { display: none; }
 
+}
+
+@media only screen and (max-width: 1581px) {
+   .our-equip__flex-item {
+      flex: 0 0 50%;
+   }
+
+   .our-equip__flex {
+      gap: 80px;  
+   }
 }
 
 @media only screen and (max-width: 1528px) {
@@ -161,6 +178,19 @@
 
 }
 
+@media only screen and (max-width: 876px) {
+   .our-clients__flex-item {
+      flex: 0 0 100%;
+   }  
+}
+
+@media only screen and (max-width: 816px) {
+   .certificates__flex {
+      gap: 122px;
+   }
+   
+}
+
 @media only screen and (max-width: 771px) {
    .head__main-title {
       width: 80%;
@@ -253,6 +283,10 @@
 
    }
 
+   .our-equip__flex-item {
+      flex: 0 0 100%;
+   }
+
 }
 
 @media only screen and (max-width: 500px) {
@@ -304,6 +338,34 @@
 @media only screen and (max-width: 493px) {
    .head__main-title {
       width: 100%;
+   }
+
+   .our-clients__flex-item {
+      flex: 0 0 100%;
+      margin-bottom: 60px;
+   
+      display: flex;
+      justify-content: center;
+   }
+
+   .aristan {
+      width: 286px;
+      height: 50px;
+   }
+
+   .amanat {
+      width: 284px;
+      height: 78px;
+   }
+
+   .jando {
+      width: 245px;
+      height: 73px;
+   }
+
+   .est {
+      width: 245px;
+      height: 73px;      
    }
 }
 
