@@ -27,7 +27,7 @@
 /*************************************************************************************************************************************
    # RESUED
 *************************************************************************************************************************************/
-.main-container { width: 90%; margin: 0 auto; }
+.main-container { width: 80%; margin: 0 auto; }
 
 /***********************************************************
    # Buttons
@@ -374,8 +374,8 @@ footer {
 }
 
 .footer__outer {
-   padding-top: 95px;
-   padding-bottom: 68px;
+   padding-top: 45px;
+   padding-bottom: 48px;
 }
 
 .footer__inner {
@@ -437,7 +437,7 @@ footer {
 }
 
 .footer__right-contacts-social-icons {
-   margin-top: 119px;
+   margin-top: 79px;
    display: flex;
    gap: 22px;
 }
