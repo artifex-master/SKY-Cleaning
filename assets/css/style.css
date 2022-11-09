@@ -27,7 +27,7 @@
 /*************************************************************************************************************************************
    # RESUED
 *************************************************************************************************************************************/
-.main-container { width: 80%; margin: 0 auto; }
+.main-container { width: 86%; margin: 0 auto; }
 
 /***********************************************************
    # Buttons
@@ -55,7 +55,7 @@
    width: 100%;
    background: var(--white);
 
-   padding-top: 71px;
+   padding-top: 62px;
    padding-bottom: 361px;
 }
 
@@ -257,19 +257,70 @@
    margin-bottom: 96px;
 }
 
+
+.slick-slide { margin: 0 40px; }
+
+
+.slick-slider {
+   position: relative;
+   display: block;
+   box-sizing: border-box;
+}
+
+.slick-list {
+   position: relative;
+   display: block;
+   overflow: hidden;
+   margin: 0;
+   padding: 0;
+}
+
+.slick-track {
+   position: relative;
+   top: 0;
+   left: 0;
+   display: block;
+}
+
+.slick-slide {
+   display: none;
+   float: left;
+   height: 100%;
+   min-height: 1px;
+}
+
+.slick-slide img {
+   display: block;
+}
+
+.slick-initialized .slick-slide {
+   display: block;
+}
+
 .our-clients__flex {
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: center;
+   position: relative;
 }
 
-.our-clients__flex-item {
-   flex: 0 0 25%;
-   margin-bottom: 60px;
-
-   display: flex;
-   justify-content: center;
+.prev-arrow {
+   position: absolute;
+   top: 42%;
+   left: -42px;
+   z-index: 6;
 }
+
+.next-arrow {
+   position: absolute;
+   top: 42%;
+   right: -42px;
+   z-index: 6;
+}
+
+
+
+
+
+
+
 
 
 

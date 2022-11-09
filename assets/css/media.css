@@ -1,11 +1,26 @@
 /*************************************************************************************************************************************
    # RESPONSIVENESS
 *************************************************************************************************************************************/
+@media only screen and (max-width: 1809px) {
+   .our-clients__flex-item-img {
+      width: 300px;
+      height: 300px;
+   }
+}
+
+
 @media only screen and (max-width: 1751px) {
    .our-clients__flex-item {
       flex: 0 0 50%;
    }
 
+}
+
+@media only screen and (max-width: 1577px) {
+   .our-clients__flex-item-img {
+      width: 280px;
+      height: 280px;
+   }
 }
 
 @media only screen and (max-width: 1613px) {
@@ -54,6 +69,13 @@
    }
 }
 
+@media only screen and (max-width: 1489px) {
+   .our-clients__flex-item-img {
+      width: 260px;
+      height: 260px;
+   }
+}
+
 @media only screen and (max-width: 1413px) {
    .head__main-img {
       width: 566px;
@@ -67,6 +89,17 @@
 
    .head__main-subtitle {
       font-size: 24px;
+   }
+}
+
+@media only screen and (max-width: 1396px) {
+   .our-clients__flex-item-img {
+      width: 230px;
+      height: 230px;
+   }
+
+   .prev-arrow {
+      left: -12px;
    }
 }
 
@@ -129,6 +162,14 @@
    }
 
 
+}
+
+
+@media only screen and (max-width: 1256px) {
+   .our-clients__flex-item-img {
+      width: 200px;
+      height: 200px;
+   }
 }
 
 @media only screen and (max-width: 1168px) {
@@ -218,6 +259,13 @@
    .our-clients__flex-item {
       flex: 0 0 100%;
    }  
+}
+
+@media only screen and (max-width: 1256px) {
+
+   .next-arrow {
+      right: -12px;
+   }
 }
 
 @media only screen and (max-width: 816px) {

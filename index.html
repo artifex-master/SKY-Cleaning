@@ -25,6 +25,20 @@
 
 
    <!---------------------------------------------------------------------------------------------
+      # Link to JQuery CDN  
+   ----------------------------------------------------------------------------------------------->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+   <!---------------------------------------------------------------------------------------------
+      # Link to Slick-Carousel 
+   ----------------------------------------------------------------------------------------------->
+   <!-- Add the slick-theme.css if you want default styling -->
+   <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+   <!-- Add the slick-theme.css if you want default styling -->
+   <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+   <!---------------------------------------------------------------------------------------------
       # Link to Font Awesome 
    -----------------------------------------------------------------------------------------------> 
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -263,19 +277,29 @@
                      <!-------- Наши клиенты: Flex-container -------->
                      <div class="our-clients__flex">
                         <div class="our-clients__flex-item">
-                           <img src="./assets/images/amanat.png" class="amanat" alt="Аманат">
+                           <img class="our-clients__flex-item-img" src="./assets/images/amanat.jpeg" alt="Аманат">
                         </div>
                         <div class="our-clients__flex-item">
-                           <img src="./assets/images/jando.png" class="jando" alt="Jando">
+                           <img class="our-clients__flex-item-img" src="./assets/images/jando.jpeg" alt="Jando">
                         </div> 
                         <div class="our-clients__flex-item">
-                           <img src="./assets/images/aristan.png" class="aristan" alt="Арыстан">
+                           <img class="our-clients__flex-item-img" src="./assets/images/est.jpeg" alt="EST">
+                        </div> 
+                        <div class="our-clents__flex-item">
+                           <img class="our-clients__flex-item-img" src="./assets/images/metal.jpeg" alt="Специальная Металлургия">
                         </div>
                         <div class="our-clients__flex-item">
-                           <img src="./assets/images/est-brand.png" class="est-brand" alt="EST">
-                        </div>                                                               
-
-
+                           <img class="our-clients__flex-item-img" src="./assets/images/adhara.jpeg" alt="Adhara">
+                        </div> 
+                        <div class="our-clients__flex-item" style="margin-right: 40px;">
+                           <img class="our-clients__flex-item-img" src="./assets/images/les-office.jpeg" alt="Les Office">
+                        </div>
+                        <div class="our-clients__flex-item">
+                           <img class="our-clients__flex-item-img" src="./assets/images/aklay.jpeg" alt="Aklay">
+                        </div>
+                        <div class="our-clients__flex-item">
+                           <img class="our-clients__flex-item-img" src="./assets/images/angar-stroy.jpeg" alt="Angar Stroy">
+                        </div> 
                      </div>
 
 
@@ -369,6 +393,43 @@
       <!-- Link to custom JavaScript -->
       <script src="./assets/js/script.js"></script>
 
+      <script>
+         $(document).ready(function() {
+            $('.our-clients__flex').slick({
+               slidesToShow: 4,
+               slidesToScroll: 1,
+               // autoplay: true,
+               // autoplaySpeed: 1500,
+               arrows: true,
+               dots: false,
+               pauseOnHover: false,
+               prevArrow: '<span class="prev-arrow"><img src="./assets/images/icons/arrow-left.png" alt="Стрелка влево" /></span>',
+               nextArrow: '<span class="next-arrow"><img src="./assets/images/icons/arrow-right.png" alt="Стрелка вправо" /></span>',
+               responsive: [{
+                  breakpoint: 1256,
+                  settings: {
+                     slidesToShow: 3
+                  }
+               }, {
+                  breakpoint: 856,
+                  settings: {
+                     slidesToShow: 2
+                  }
+               }, {
+                  breakpoint: 713,
+                  settings: {
+                     slidesToShow: 1
+                  }
+               }]
+
+            }) 
+         })
+
+
+
+
+      </script>
+
    </body>
    <footer>
       <div class="main-container">
@@ -451,8 +512,6 @@
                   <a href="#">Политика конфиденциальности</a>
                   <a href="#">Все права защищены &#169;</a>
                </div>           
-
-
 
             </div>
          </div>
