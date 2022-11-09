@@ -23,345 +23,440 @@
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
+
+   <!---------------------------------------------------------------------------------------------
+      # Link to Font Awesome 
+   -----------------------------------------------------------------------------------------------> 
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
    <!---------------------------------------------------------------------------------------------
       # TITLE   
    ----------------------------------------------------------------------------------------------->
    <title>SKY Cleaning</title>
 
 </head>
-<body>
-   <main>
-      <!--------------------------------------------------------------------------------------------
-         # Шапка  
-      ----------------------------------------------------------------------------------------------->
-      <section class="head">
-         <div class="main-container">
-            <div class="head__outer">
-               <div class="head__header">
-                  <!-----------------------------------------
-                     # LOGO
-                  ------------------------------------------>
-                  <div class="head__header-logo">
-                     <a href="#"><img width="148" height="88" class="logo" src="./assets/images/logo.png" alt="logo" /></a>
-                  </div>
-      
-                  <!-----------------------------------------
-                     # HEADER INFO
-                  ------------------------------------------>
-                  <div class="head__header-info" data-header-info>
+   <body>
+      <main>
+         <!--------------------------------------------------------------------------------------------
+            # Шапка  
+         ----------------------------------------------------------------------------------------------->
+         <section class="head">
+            <div class="main-container">
+               <div class="head__outer">
+                  <div class="head__header">
                      <!-----------------------------------------
-                        # HEADER INFO - Working Hours
+                        # LOGO
                      ------------------------------------------>
-                     <div class="header-info-working-hours">
-                        <!----------- Иконка ------------>
-                        <img width="43" height="43" src="./assets/images/icons/header-timing.png" alt="Header timing" />
-                        <!----------- Текстовые данные ------------>
-                        <div class="header-info-working-hours__txt-data">
-                           <span>График работы:</span>
-                           <span>Пн-Сб с 8:00 до 18:00</span>
-                        </div>
+                     <div class="head__header-logo">
+                        <a href="#"><img width="148" height="88" class="logo" src="./assets/images/logo.png" alt="logo" /></a>
                      </div>
-      
+         
                      <!-----------------------------------------
-                        # HEADER INFO - Номер телефона
+                        # HEADER INFO
                      ------------------------------------------>
-                     <div class="header-info-tel">
-                        <!----------- Иконка ------------>
-                        <img width="45" height="43" src="./assets/images/icons/header-tel.png" alt="Header Telephone" />
-                        <!----------- Текстовые данные ------------>
-                        <div class="header-info-tel__txt-data">
-                           <span>+7 708 99 57 57</span>
+                     <div class="head__header-info" data-header-info>
+                        <!-----------------------------------------
+                           # HEADER INFO - Working Hours
+                        ------------------------------------------>
+                        <div class="header-info-working-hours">
+                           <!----------- Иконка ------------>
+                           <img width="43" height="43" src="./assets/images/icons/header-timing.png" alt="Header timing" />
+                           <!----------- Текстовые данные ------------>
+                           <div class="header-info-working-hours__txt-data">
+                              <span>График работы:</span>
+                              <span>Пн-Сб с 8:00 до 18:00</span>
+                           </div>
                         </div>
-      
+         
+                        <!-----------------------------------------
+                           # HEADER INFO - Номер телефона
+                        ------------------------------------------>
+                        <div class="header-info-tel">
+                           <!----------- Иконка ------------>
+                           <img width="45" height="43" src="./assets/images/icons/header-tel.png" alt="Header Telephone" />
+                           <!----------- Текстовые данные ------------>
+                           <div class="header-info-tel__txt-data">
+                              <span>+7 708 99 57 57</span>
+                           </div>
+         
+                        </div>
+                        
+                        
                      </div>
+         
+                     <!-----------------------------------------
+                        # HEADER MOBILE-MENU
+                     ------------------------------------------> 
+                     <div class="head__header-mobile" data-header-mobile>
+                        <span class="header-mobile-line line-first"></span>
+                        <span class="header-mobile-line line-second"></span>
+                        <span class="header-mobile-line line-third"></span>
+                     </div>     
                      
-                     
-                  </div>
-      
-                  <!-----------------------------------------
-                     # HEADER MOBILE-MENU
-                  ------------------------------------------> 
-                  <div class="head__header-mobile" data-header-mobile>
-                     <span class="header-mobile-line line-first"></span>
-                     <span class="header-mobile-line line-second"></span>
-                     <span class="header-mobile-line line-third"></span>
-                  </div>     
-                  
-                  <!-----------------------------------------
-                     # HEADER OVERLAY
-                  ------------------------------------------>
-                  <div class="overlay" data-overlay></div>
-      
-               </div>
-
-               <div class="head__main">
-                  <!------------------------------------------------------------
-                     #  Заголовок
-                  -------------------------------------------------------------->
-                  <div class="head__main-title">
-                     <span>Профессиональная клининговая служба в Актау</span>
+                     <!-----------------------------------------
+                        # HEADER OVERLAY
+                     ------------------------------------------>
+                     <div class="overlay" data-overlay></div>
+         
                   </div>
 
-                  <!------------------------------------------------------------
-                     #  Суб-заголовок
-                  -------------------------------------------------------------->  
-                  <div class="head__main-subtitle">
-                     <span>Качественная уборка квартир и офисов</span>
-                  </div>                
-                  
-                  <!------------------------------------------------------------
-                     #  Кнопка
-                  -------------------------------------------------------------->
-                  <button class="btn-primary">Заказать</button>
-
-                  <!------------------------------------------------------------
-                     #  Картинка
-                  -------------------------------------------------------------->   
-                  <img class="head__main-img" src="./assets/images/head__main-img.png" alt="Главное изображание" />
-                  
-                  <div class="head__main-img-holder">
-                     <div class="head__main-img-overlay"></div>
-                     <img class="head__main-woman-img" src="./assets/images/head__main-woman-img.png" alt="Изображение mobile" />               
-                  </div>
-                  
-
-               </div>
-
-            </div>
-         </div>
-
-
-
-      </section>
-
-      <!--------------------------------------------------------------------------------------------
-         # Услуги  
-      ----------------------------------------------------------------------------------------------->
-      <section class="services">
-         <div class="main-container">
-            <div class="services__outer">
-               <div class="services__inner">
-                  <!---------------------------------------------------------------------
-                     # Заголовок
-                  ---------------------------------------------------------------------->
-                  <div class="services__title">
-                     <span>Услуги</span>
-                  </div>
-
-                  <!---------------------------------------------------------------------
-                     # Services - Flex container
-                  ---------------------------------------------------------------------->
-                  <div class="services__flex">
-                     <!------- Flex-item --------->
-                     <div class="services__flex-item">
-                        <!------- Изображение --------->
-                        <div class="services__flex-item-img">
-                           <img class="services__flex-item-image" src="./assets/images/services__flex-item-img-1.png" alt="Убока квартир, домов и помещений" />
-                        </div>
-                        <!------- Текстовые данные --------->
-                        <div class="services__flex-item-txt">
-                           <p>Уборка домов, квартир и помещений</p>
-                        </div>
+                  <div class="head__main">
+                     <!------------------------------------------------------------
+                        #  Заголовок
+                     -------------------------------------------------------------->
+                     <div class="head__main-title">
+                        <span>Профессиональная клининговая служба в Актау</span>
                      </div>
 
-                     <!------- Flex-item --------->
-                     <div class="services__flex-item">
-                        <!------- Изображение --------->
-                        <div class="services__flex-item-img">
-                           <img class="services__flex-item-image" src="./assets/images/services__flex-item-img-2.png" alt="Химчистка мягкой мебели" />
-                        </div>
-                        <!------- Текстовые данные --------->
-                        <div class="services__flex-item-txt">
-                           <p>Химчистка мягкой мебели</p>
-                        </div>
-                     </div>   
+                     <!------------------------------------------------------------
+                        #  Суб-заголовок
+                     -------------------------------------------------------------->  
+                     <div class="head__main-subtitle">
+                        <span>Качественная уборка квартир и офисов</span>
+                     </div>                
                      
-                     <!------- Flex-item --------->
-                     <div class="services__flex-item">
-                        <!------- Изображение --------->
-                        <div class="services__flex-item-img">
-                           <img class="services__flex-item-image" src="./assets/images/services__flex-item-img-3.png" alt="Стирка штор и тюлей" />
-                        </div>
-                        <!------- Текстовые данные --------->
-                        <div class="services__flex-item-txt">
-                           <p>Стирка штор и тюлей</p>
-                        </div>
-                     </div>   
-                     
-                     <!------- Flex-item --------->
-                     <div class="services__flex-item">
-                        <!------- Изображение --------->
-                        <div class="services__flex-item-img">
-                           <img class="services__flex-item-image" src="./assets/images/services__flex-item-img-1.png" alt="Стирка штор и тюлей" />
-                        </div>
-                        <!------- Текстовые данные --------->
-                        <div class="services__flex-item-txt">
-                           <p>Стирка штор и тюлей</p>
-                        </div>
-                     </div> 
-                     
-                     <!------- Flex-item --------->
-                     <div class="services__flex-item">
-                        <!------- Изображение --------->
-                        <div class="services__flex-item-img">
-                           <img class="services__flex-item-image" src="./assets/images/services__flex-item-img-2.png" alt="Стирка штор и тюлей" />
-                        </div>
-                        <!------- Текстовые данные --------->
-                        <div class="services__flex-item-txt">
-                           <p>Стирка штор и тюлей</p>
-                        </div>
-                     </div>
-                     
-                     <!------- Flex-item --------->
-                     <div class="services__flex-item">
-                        <!------- Изображение --------->
-                        <div class="services__flex-item-img">
-                           <img class="services__flex-item-image" src="./assets/images/services__flex-item-img-3.png" alt="Стирка штор и тюлей" />
-                        </div>
-                        <!------- Текстовые данные --------->
-                        <div class="services__flex-item-txt">
-                           <p>Стирка штор и тюлей</p>
-                        </div>
-                     </div>                     
-
-                  </div>
-
-                  <!---------------------------------------------------------------------
-                     # Services - Кнопка
-                  ---------------------------------------------------------------------->
-                  <div class="services__btn">
+                     <!------------------------------------------------------------
+                        #  Кнопка
+                     -------------------------------------------------------------->
                      <button class="btn-primary">Заказать</button>
-                  </div>
 
-               </div>
-            </div>
-         </div>
-
-
-
-
-      </section>
-
-      <!---------------------------------------------------------------------------------------------
-         # Наши клиенты 
-      ----------------------------------------------------------------------------------------------->     
-      <section class="our-clients">
-         <div class="main-container">
-            <div class="our-clients__outer">
-               <div class="our-clients__inner">
-                  <!----- Заголовок ----->
-                  <div class="our-clients__title">
-                     <span>Наши клиенты</span>
-                  </div>
-
-                  <!-------- Наши клиенты: Flex-container -------->
-                  <div class="our-clients__flex">
-                     <div class="our-clients__flex-item">
-                        <img src="./assets/images/amanat.png" class="amanat" alt="Аманат">
-                     </div>
-                     <div class="our-clients__flex-item">
-                        <img src="./assets/images/jando.png" class="jando" alt="Jando">
-                     </div> 
-                     <div class="our-clients__flex-item">
-                        <img src="./assets/images/aristan.png" class="aristan" alt="Арыстан">
-                     </div>
-                     <div class="our-clients__flex-item">
-                        <img src="./assets/images/est-brand.png" class="est-brand" alt="EST">
-                     </div>                                                               
-
-
-                  </div>
-
-
-               </div>
-            </div>
-         </div>
-      </section> 
-
-      <!---------------------------------------------------------------------------------------------
-         # Наше оборудование 
-      ----------------------------------------------------------------------------------------------->     
-      <section class="our-equip">
-         <div class="main-container">
-            <div class="our-equip__outer">
-               <div class="our-equip__inner">
-                  <div class="our-equip__title">
-                     <span>Наше оборудование</span>
-                  </div>
-
-                  <div class="our-equip__flex">
-                     <div class="our-equip__flex-item">
-                        <div class="our-equip__flex-item-image">
-                           <img src="./assets/images/our-equip__flex-item-img-1.png" alt="Изображение первое">
-                        </div>
-                        <div class="our-equip__flex-item-txt">
-                           <span>Пароочиститель karcher sc 4</span>
-                        </div>
-                     </div>
-
-                     <div class="our-equip__flex-item">
-                        <div class="our-equip__flex-item-image">
-                           <img src="./assets/images/our-equip__flex-item-img-2.png" alt="Изображение второе">
-                        </div>
-                        <div class="our-equip__flex-item-txt">
-                           <span>Ковровый экстрактор</span>
-                        </div>
-                     </div>   
+                     <!------------------------------------------------------------
+                        #  Картинка
+                     -------------------------------------------------------------->   
+                     <img class="head__main-img" src="./assets/images/head__main-img.png" alt="Главное изображание" />
                      
-                     <div class="our-equip__flex-item">
-                        <div class="our-equip__flex-item-image">
-                           <img src="./assets/images/our-equip__flex-item-img-3.png" alt="Изображение третье">
-                        </div>
-                        <div class="our-equip__flex-item-txt">
-                           <span>Karcher Puzzi 30/4 пылесос</span>
-                        </div>
-                     </div>                      
-
+                     <div class="head__main-img-holder">
+                        <div class="head__main-img-overlay"></div>
+                        <img class="head__main-woman-img" src="./assets/images/head__main-woman-img.png" alt="Изображение mobile" />               
+                     </div>
+                     
 
                   </div>
-               
-               
-               
-               </div>
-            </div>
-         </div>
-      </section> 
-
-      <!---------------------------------------------------------------------------------------------
-         # Сертификаты 
-      -----------------------------------------------------------------------------------------------> 
-      <section class="certificates">
-         <div class="main-container">
-            <div class="certificates__outer">
-               <div class="certificates__inner">
-                  <div class="certificates__title">
-                     <span>Сертификаты</span>
-                  </div>
-                  <div class="certificates__flex">
-                     <div class="certificates__flex-item">
-                        <img class="certificate" src="./assets/images/certificate.png" alt="Сертификат">
-                     </div>
-                     <div class="certificates__flex-item">
-                        <img class="certificate" src="./assets/images/certificate.png" alt="Сертификат">
-                     </div>
-                     <div class="certificates__flex-item">
-                        <img class="certificate" src="./assets/images/certificate.png" alt="Сертификат">
-                     </div>
-
-                  </div>
-
 
                </div>
             </div>
+
+
+
+         </section>
+
+         <!--------------------------------------------------------------------------------------------
+            # Услуги  
+         ----------------------------------------------------------------------------------------------->
+         <section class="services">
+            <div class="main-container">
+               <div class="services__outer">
+                  <div class="services__inner">
+                     <!---------------------------------------------------------------------
+                        # Заголовок
+                     ---------------------------------------------------------------------->
+                     <div class="services__title">
+                        <span>Услуги</span>
+                     </div>
+
+                     <!---------------------------------------------------------------------
+                        # Services - Flex container
+                     ---------------------------------------------------------------------->
+                     <div class="services__flex">
+                        <!------- Flex-item --------->
+                        <div class="services__flex-item">
+                           <!------- Изображение --------->
+                           <div class="services__flex-item-img">
+                              <img class="services__flex-item-image" src="./assets/images/services__flex-item-img-1.png" alt="Убока квартир, домов и помещений" />
+                           </div>
+                           <!------- Текстовые данные --------->
+                           <div class="services__flex-item-txt">
+                              <p>Уборка домов, квартир и помещений</p>
+                           </div>
+                        </div>
+
+                        <!------- Flex-item --------->
+                        <div class="services__flex-item">
+                           <!------- Изображение --------->
+                           <div class="services__flex-item-img">
+                              <img class="services__flex-item-image" src="./assets/images/services__flex-item-img-2.png" alt="Химчистка мягкой мебели" />
+                           </div>
+                           <!------- Текстовые данные --------->
+                           <div class="services__flex-item-txt">
+                              <p>Химчистка мягкой мебели</p>
+                           </div>
+                        </div>   
+                        
+                        <!------- Flex-item --------->
+                        <div class="services__flex-item">
+                           <!------- Изображение --------->
+                           <div class="services__flex-item-img">
+                              <img class="services__flex-item-image" src="./assets/images/services__flex-item-img-3.png" alt="Стирка штор и тюлей" />
+                           </div>
+                           <!------- Текстовые данные --------->
+                           <div class="services__flex-item-txt">
+                              <p>Стирка штор и тюлей</p>
+                           </div>
+                        </div>   
+                        
+                        <!------- Flex-item --------->
+                        <div class="services__flex-item">
+                           <!------- Изображение --------->
+                           <div class="services__flex-item-img">
+                              <img class="services__flex-item-image" src="./assets/images/services__flex-item-img-1.png" alt="Стирка штор и тюлей" />
+                           </div>
+                           <!------- Текстовые данные --------->
+                           <div class="services__flex-item-txt">
+                              <p>Стирка штор и тюлей</p>
+                           </div>
+                        </div> 
+                        
+                        <!------- Flex-item --------->
+                        <div class="services__flex-item">
+                           <!------- Изображение --------->
+                           <div class="services__flex-item-img">
+                              <img class="services__flex-item-image" src="./assets/images/services__flex-item-img-2.png" alt="Стирка штор и тюлей" />
+                           </div>
+                           <!------- Текстовые данные --------->
+                           <div class="services__flex-item-txt">
+                              <p>Стирка штор и тюлей</p>
+                           </div>
+                        </div>
+                        
+                        <!------- Flex-item --------->
+                        <div class="services__flex-item">
+                           <!------- Изображение --------->
+                           <div class="services__flex-item-img">
+                              <img class="services__flex-item-image" src="./assets/images/services__flex-item-img-3.png" alt="Стирка штор и тюлей" />
+                           </div>
+                           <!------- Текстовые данные --------->
+                           <div class="services__flex-item-txt">
+                              <p>Стирка штор и тюлей</p>
+                           </div>
+                        </div>                     
+
+                     </div>
+
+                     <!---------------------------------------------------------------------
+                        # Services - Кнопка
+                     ---------------------------------------------------------------------->
+                     <div class="services__btn">
+                        <button class="btn-primary">Заказать</button>
+                     </div>
+
+                  </div>
+               </div>
+            </div>
+
+
+
+
+         </section>
+
+         <!---------------------------------------------------------------------------------------------
+            # Наши клиенты 
+         ----------------------------------------------------------------------------------------------->     
+         <section class="our-clients">
+            <div class="main-container">
+               <div class="our-clients__outer">
+                  <div class="our-clients__inner">
+                     <!----- Заголовок ----->
+                     <div class="our-clients__title">
+                        <span>Наши клиенты</span>
+                     </div>
+
+                     <!-------- Наши клиенты: Flex-container -------->
+                     <div class="our-clients__flex">
+                        <div class="our-clients__flex-item">
+                           <img src="./assets/images/amanat.png" class="amanat" alt="Аманат">
+                        </div>
+                        <div class="our-clients__flex-item">
+                           <img src="./assets/images/jando.png" class="jando" alt="Jando">
+                        </div> 
+                        <div class="our-clients__flex-item">
+                           <img src="./assets/images/aristan.png" class="aristan" alt="Арыстан">
+                        </div>
+                        <div class="our-clients__flex-item">
+                           <img src="./assets/images/est-brand.png" class="est-brand" alt="EST">
+                        </div>                                                               
+
+
+                     </div>
+
+
+                  </div>
+               </div>
+            </div>
+         </section> 
+
+         <!---------------------------------------------------------------------------------------------
+            # Наше оборудование 
+         ----------------------------------------------------------------------------------------------->     
+         <section class="our-equip">
+            <div class="main-container">
+               <div class="our-equip__outer">
+                  <div class="our-equip__inner">
+                     <div class="our-equip__title">
+                        <span>Наше оборудование</span>
+                     </div>
+
+                     <div class="our-equip__flex">
+                        <div class="our-equip__flex-item">
+                           <div class="our-equip__flex-item-image">
+                              <img src="./assets/images/our-equip__flex-item-img-1.png" alt="Изображение первое">
+                           </div>
+                           <div class="our-equip__flex-item-txt">
+                              <span>Пароочиститель karcher sc 4</span>
+                           </div>
+                        </div>
+
+                        <div class="our-equip__flex-item">
+                           <div class="our-equip__flex-item-image">
+                              <img src="./assets/images/our-equip__flex-item-img-2.png" alt="Изображение второе">
+                           </div>
+                           <div class="our-equip__flex-item-txt">
+                              <span>Ковровый экстрактор</span>
+                           </div>
+                        </div>   
+                        
+                        <div class="our-equip__flex-item">
+                           <div class="our-equip__flex-item-image">
+                              <img src="./assets/images/our-equip__flex-item-img-3.png" alt="Изображение третье">
+                           </div>
+                           <div class="our-equip__flex-item-txt">
+                              <span>Karcher Puzzi 30/4 пылесос</span>
+                           </div>
+                        </div>                      
+
+
+                     </div>
+                  
+                  
+                  
+                  </div>
+               </div>
+            </div>
+         </section> 
+
+         <!---------------------------------------------------------------------------------------------
+            # Сертификаты 
+         -----------------------------------------------------------------------------------------------> 
+         <section class="certificates">
+            <div class="main-container">
+               <div class="certificates__outer">
+                  <div class="certificates__inner">
+                     <div class="certificates__title">
+                        <span>Сертификаты</span>
+                     </div>
+                     <div class="certificates__flex">
+                        <div class="certificates__flex-item">
+                           <img class="certificate" src="./assets/images/certificate.png" alt="Сертификат">
+                        </div>
+                        <div class="certificates__flex-item">
+                           <img class="certificate" src="./assets/images/certificate.png" alt="Сертификат">
+                        </div>
+                        <div class="certificates__flex-item">
+                           <img class="certificate" src="./assets/images/certificate.png" alt="Сертификат">
+                        </div>
+
+                     </div>
+
+
+                  </div>
+               </div>
+            </div>
+         </section>     
+
+
+      </main>
+
+
+      <!-- Link to custom JavaScript -->
+      <script src="./assets/js/script.js"></script>
+
+   </body>
+   <footer>
+      <div class="main-container">
+         <div class="footer__outer">
+            <div class="footer__inner">
+               <!--------------------------------------------------------------
+                  # Логотип
+               ---------------------------------------------------------------->
+               <div class="footer__logo">
+                 <a href="#"><img src="./assets/images/footer__logo.png" alt="logo.png" /></a>
+               </div>
+
+               <!--------------------------------------------------------------
+                  # Footer: right
+               ---------------------------------------------------------------->   
+               <div class="footer__right">
+                  <!------------- Разделы ---------------->
+                  <div class="footer__right-sections">
+                     <div class="footer__right-sections-title">
+                        <span>Разделы</span>
+                     </div>
+                     <a href="#">Услуги</a>
+                     <a href="#">Клиенты</a>
+                     <a href="#">Оборудование</a>
+                     <a href="#">Сертификаты</a>
+                  </div>
+
+                  <!------------- Адрес ---------------->
+                  <div class="footer__right-address">
+                     <div class="footer__right-address-title">
+                        <span>Адрес</span>
+                     </div>    
+                     <p>РК, Мангистауская область, г.Актау</p>                 
+                  </div>
+
+                  <!-------------Контакты ---------------->
+                  <div class="footer__right-contacts">
+                     <div class="footer__right-contacts-title">
+                        <span>Контакты</span>
+                     </div>
+
+                     <div class="footer__right-contacts-line">
+                        <img src="./assets/images/icons/footer-phone.png" alt="Иконка телефона" />
+                        <div class="footer__right-contacts-line-phone">
+                           <span>+7(705) 388 77 65</span>
+                        </div>
+                     </div>
+
+                     <div class="footer__right-contacts-line">
+                        <img src="./assets/images/icons/footer-phone.png" alt="Иконка телефона" />
+                        <div class="footer__right-contacts-line-phone">
+                           <span>+7(705) 356 34 23</span>
+                        </div>
+                     </div>  
+                     
+                     <div class="footer__right-contacts-line">
+                        <img width="31" src="./assets/images/icons/envelope.png" alt="Иконка конверта" />
+                        <div class="footer__right-contacts-line-phone">
+                           <span>sky.clean@gmail.com</span>
+                        </div>
+                     </div>    
+                     
+                     <!------------- Иконки ---------------->
+                     <div class="footer__right-contacts-social-icons">
+                        <!------ WhatsApp ------>
+                        <i href="#" class="fa fa-whatsapp"></i>
+                        <i href="#" class="fa fa-instagram"></i>
+                        <i href="#" class="fa fa-facebook"></i>
+                        <i href="#" class="fa fa-youtube"></i>
+                     </div>
+
+                  </div>
+               </div>   
+               
+               <!--------------------------------------------------------------
+                  # Footer: Copyright information
+               ---------------------------------------------------------------->     
+               <div class="footer__copy">
+                  <a href="#">Публичная оферта</a>
+                  <a href="#">Политика конфиденциальности</a>
+                  <a href="#">Все права защищены &#169;</a>
+               </div>           
+
+
+
+            </div>
          </div>
-      </section>     
+      </div>
+   </footer>
 
-
-   </main>
-
-
-   <!-- Link to custom JavaScript -->
-   <script src="./assets/js/script.js"></script>
-
-</body>
 </html>

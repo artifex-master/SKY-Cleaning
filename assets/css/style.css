@@ -325,6 +325,14 @@
 }
 
 
+/*************************************************************************************************************************************
+   # Сертификаты
+*************************************************************************************************************************************/
+.certificates {
+   margin-bottom: 124px;
+}
+
+
 .certificates__title {
    font-weight: var(--fw-700);
    font-size: 25px;
@@ -347,7 +355,6 @@
 .certificates__flex-item {
    flex: 0 0 18%;
    border-radius: 10px;
-   background: #D9D9D9;
    width: 290px;
    height: 200px;
 }
@@ -356,4 +363,104 @@
    object-fit: cover;
    border-radius: 10px;
    border: 0;
+}
+
+/*************************************************************************************************************************************
+   # FOOTER
+*************************************************************************************************************************************/
+footer {
+   width: 100%;
+   background-color: var(--grey-2D);
+}
+
+.footer__outer {
+   padding-top: 95px;
+   padding-bottom: 68px;
+}
+
+.footer__inner {
+   display: flex;
+   position: relative;
+   justify-content: space-between;
+}
+
+.footer__right {
+   display: flex;
+   gap: 60px;
+}
+
+.footer__right-sections, .footer__right-address, .footer__right-contacts {
+   display: flex;
+   flex-direction: column;
+   gap: 21px;
+}
+
+.footer__right-sections-title, .footer__right-address-title, .footer__right-contacts-title {
+   font-weight: var(--fw-700);
+   font-size: 20px;
+   line-height: 24px;
+   color: var(--orange);
+}
+
+.footer__right-sections a {
+   color: var(--white);
+   font-weight: var(--fw-400);
+   font-size: 17px;
+   line-height: 21px;
+}
+
+.footer__right-address p {
+   width: 80%;
+   color: var(--white);
+   font-weight: var(--fw-400);
+   font-size: 17px;
+   line-height: 21px;
+}
+
+.footer__right-contacts-title {
+   display: flex;
+   justify-content: center;
+}
+
+
+.footer__right-contacts-line {
+   display: flex;
+   gap: 25px;
+}
+
+.footer__right-contacts-line-phone {
+   color: var(--white);
+   font-weight: var(--fw-400);
+   font-size: 17px;
+   line-height: 21px;
+   padding-top: 3px;  
+}
+
+.footer__right-contacts-social-icons {
+   margin-top: 119px;
+   display: flex;
+   gap: 22px;
+}
+
+.footer__right-contacts-social-icons .fa {
+   font-size: 30px;
+   color: rgb(255,154,5);
+   cursor: pointer;
+}
+
+.footer__copy {
+   display: flex;
+   flex-direction: column;
+   gap: 17px;
+
+   position: absolute;
+   left: 0;
+   bottom: 0;
+}
+
+.footer__copy a {
+   font-weight: var(--fw-300);
+   font-size: 17px;
+   line-height: 21px;
+   color: var(--white);
 }
