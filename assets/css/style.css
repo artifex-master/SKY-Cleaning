@@ -411,42 +411,42 @@ main section { position: relative; z-index: 100; background: transparent; }
 /*************************************************************************************************************************************
    # Сертификаты
 *************************************************************************************************************************************/
-.certificates {
-   margin-bottom: 124px;
+.certificates__outer {
+   padding-block-end: 153px;
 }
 
-
 .certificates__title {
-   font-weight: var(--fw-700);
+   font-weight: 700;
    font-size: 25px;
    line-height: 30px;
+   text-align: center;
    color: var(--grey-2D);
 
    display: flex;
    justify-content: center;
 
-   margin-bottom: 123px;
+   margin-bottom: 74px;
 }
 
-.certificates__flex {
+.certificates__flex-wrapper {
    display: flex;
-   flex-wrap: wrap;
    justify-content: center;
-   gap: 155px;
+   flex-wrap: wrap;
 }
 
 .certificates__flex-item {
-   flex: 0 0 18%;
-   border-radius: 10px;
-   width: 290px;
-   height: 200px;
+   flex: 0 0 33%;
+   display: flex;
+   gap: 210px;
+   justify-content: center;
+   margin-bottom: 103px;
 }
 
-.certificate {
-   object-fit: cover;
-   border-radius: 10px;
-   border: 0;
+.certificate-img {
+   aspect-ratio: var(--width) / var(--height);
 }
+
+
 
 /*************************************************************************************************************************************
    # FOOTER

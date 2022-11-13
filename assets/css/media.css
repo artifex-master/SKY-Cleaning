@@ -88,6 +88,14 @@
    }
 }
 
+@media only screen and (max-width: 1440px) {
+   .certificates__flex-item {
+      flex: 0 0 33%;
+      gap: 210px;
+   }
+
+}
+
 @media only screen and (max-width: 1413px) {
    .head__main-img {
       width: 566px;
@@ -167,6 +175,11 @@
       margin-bottom: 68px;
    }
 
+   .certificates__flex-item {
+      flex: 0 0 33.3%;
+      gap: 280px;
+   }
+
 }
 
 @media only screen and (max-width: 1258px) {
@@ -209,6 +222,13 @@
    #karcher-gray {
       width: 151px;
       height: 184px;
+   }
+}
+
+@media only screen and (max-width: 1193px) {   
+   .certificates__flex-item {
+      flex: 0 0 50%;
+      gap: 280px;
    }
 }
 
@@ -313,6 +333,13 @@
       gap: 122px;
    }
    
+}
+
+@media only screen and (max-width: 768px) {
+   .certificates__flex-item {
+      flex: 0 0 100%;
+      gap: 0;
+   }
 }
 
 @media only screen and (max-width: 771px) {
