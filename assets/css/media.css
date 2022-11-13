@@ -1,13 +1,19 @@
 /*************************************************************************************************************************************
    # RESPONSIVENESS
 *************************************************************************************************************************************/
+@media only screen and (max-width: 1908px) {
+   .our-equipement__flex-item-title span {
+      width: 80%;
+   }
+
+}
+
 @media only screen and (max-width: 1809px) {
    .our-clients__flex-item-img {
       width: 300px;
       height: 300px;
    }
 }
-
 
 @media only screen and (max-width: 1751px) {
    .our-clients__flex-item {
@@ -69,6 +75,12 @@
    }
 }
 
+@media only screen and (max-width: 1504px) {
+   .our-equipement__flex-item-title span {
+      width: 90%;
+   }
+}
+
 @media only screen and (max-width: 1489px) {
    .our-clients__flex-item-img {
       width: 260px;
@@ -100,6 +112,22 @@
 
    .prev-arrow {
       left: -12px;
+   }
+}
+
+@media only screen and (max-width: 1370px) {
+   .our-equipement__flex-item-title span {
+      width: 100%;
+   }
+
+   .our-equipment__flex-item-img {
+      width: 300px;
+      height: 243px;
+   }
+
+   .our-equipment-img {
+      width: 80%;
+      height: 80%;
    }
 }
 
@@ -169,6 +197,18 @@
    .our-clients__flex-item-img {
       width: 200px;
       height: 200px;
+   }
+}
+
+@media only screen and (max-width: 1200px) {
+   .our-equipment__flex-item-img {
+      width: 260px;
+      height: 203px;
+   }
+
+   #karcher-gray {
+      width: 151px;
+      height: 184px;
    }
 }
 
@@ -371,6 +411,10 @@
       flex: 0 0 100%;
    }
 
+   .our-equipement__flex-item-title span {
+      width: 80%;
+   }
+
 }
 
 @media only screen and (max-width: 555px) {
@@ -461,6 +505,18 @@
    .est {
       width: 245px;
       height: 73px;      
+   }
+}
+
+@media only screen and (max-width: 468px) {
+   .our-equipement__flex-item-title span {
+      width: 60%;
+   }
+}
+
+@media only screen and (max-width: 468px) {
+   .our-equipement__flex-item-title span {
+      width: 86%;
    }
 }
 

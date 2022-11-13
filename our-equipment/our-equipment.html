@@ -1,0 +1,138 @@
+<html lang="ru">
+<head>
+   <!------------------------------------- Meta-data -------------------------------------------->
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <!---------------------------------------------------------------------------------------------
+      # Link to custom CSS style  
+   ----------------------------------------------------------------------------------------------->   
+   <link rel="stylesheet" href="../assets/css/style.css" />
+   <link rel="stylesheet" href="../assets/css/reset.css" />
+   <link rel="stylesheet" href="./our-equipment.css" />
+
+   <!---------------------------------------------------------------------------------------------
+      # Link to Google Fonts  
+   ----------------------------------------------------------------------------------------------->    
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+
+   <!---------------------------------------------------------------------------------------------
+      # Link to JQuery CDN  
+   ----------------------------------------------------------------------------------------------->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+   <!---------------------------------------------------------------------------------------------
+      # Link to Slick-Carousel 
+   ----------------------------------------------------------------------------------------------->
+   <!-- Add the slick-theme.css if you want default styling -->
+   <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+   <!-- Add the slick-theme.css if you want default styling -->
+   <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+   <!---------------------------------------------------------------------------------------------
+      # Link to Font Awesome 
+   -----------------------------------------------------------------------------------------------> 
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+   <!------------------------------------- Meta-data -------------------------------------------->
+   <title>Our Equipment</title>
+
+</head>
+<body>
+   <main>
+      <section class="our-equipment">
+         <div class="main-container">
+            <div class="our-equipment__outer">
+
+               <div class="our-equipment__inner">
+                  <div class="our-equipment__flex">
+                     <div class="our-equipment__flex-item">
+                        <div class="our-equipment__flex-item-img-wrapper">
+                           <div class="our-equipment__flex-item-img">
+                              <img class="our-equipment-img karcher-blue" src="../assets/images/karcher-blue.jpeg" alt="Karcher Blue" />
+                           </div>
+                        </div>
+                        <div class="our-equipement__flex-item-title">
+                           <span>Пароочиститель karcher sc 4</span>
+                        </div>
+                     </div>
+
+                     <div class="our-equipment__flex-item">
+                        <div class="our-equipment__flex-item-img-wrapper">
+                           <div class="our-equipment__flex-item-img">
+                              <img class="our-equipment-img" src="../assets/images/yellow.png" alt="Karcher Yellow" />
+                           </div>
+                        </div>
+                        <div class="our-equipement__flex-item-title">
+                           <span>Пароочиститель karcher sc 4</span>
+                        </div>
+                     </div>
+
+                     <div class="our-equipment__flex-item">
+                        <div class="our-equipment__flex-item-img-wrapper">
+                           <div class="our-equipment__flex-item-img">
+                              <img class="our-equipment-img" src="../assets/images/karcher-puzzi.png" alt="Karcher Puzzi" />
+                           </div>
+                        </div>
+                        <div class="our-equipement__flex-item-title">
+                           <span>Karcher Puzzi 30/4 пылесос</span>
+                        </div>
+                     </div>
+
+                     <div class="our-equipment__flex-item">
+                        <div class="our-equipment__flex-item-img-wrapper">
+                           <div class="our-equipment__flex-item-img">
+                              <img class="our-equipment-img" src="../assets/images/karcher-grey.png" alt="Karcher Grey" />
+                           </div>
+                        </div>
+                        <div class="our-equipement__flex-item-title">
+                           <span>Пылесос влажной и сухой 
+                              уборки Karcher NT 20/1</span>
+                        </div>
+                     </div>
+
+                     <div class="our-equipment__flex-item">
+                        <div class="our-equipment__flex-item-img-wrapper">
+                           <div class="our-equipment__flex-item-img">
+                              <img class="our-equipment-img" src="../assets/images/industrial-aree.png" alt="Industrial Aree" />
+                           </div>
+                        </div>
+                        <div class="our-equipement__flex-item-title">
+                           <span>Уборочная тележка filmop 8036</span>
+                        </div>
+                     </div>                 
+                  </div>
+               </div>
+
+            </div>
+         </div>
+      </section>
+   </main>
+
+   <script>
+      $(document).ready(function() {
+         $('.our-equipment__flex').slick({
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 1500,
+            arrows: true,
+            dots: false,
+            pauseOnHover: false,
+            prevArrow: '<span class="prev-arrow"><img src="./arrow-left.png" alt="Стрелка влево" /></span>',
+            nextArrow: '<span class="next-arrow"><img src="./arrow-right.png" alt="Стрелка вправо" /></span>'
+
+
+         });
+      });
+
+
+
+   </script>
+</body>
+</html>

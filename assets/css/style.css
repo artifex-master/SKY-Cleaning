@@ -28,6 +28,8 @@
    # RESUED
 *************************************************************************************************************************************/
 .main-container { width: 86%; margin: 0 auto; }
+main { position: relative; }
+main section { position: relative; z-index: 100; background: transparent; } 
 
 /***********************************************************
    # Buttons
@@ -53,8 +55,6 @@
 *************************************************************************************************************************************/
 .head {
    width: 100%;
-   background: var(--white);
-
    padding-top: 62px;
    padding-bottom: 361px;
 }
@@ -175,6 +175,24 @@
    margin-bottom: 41px;
 }
 
+
+.head-services-bg-transparent {
+   position: absolute;
+   top: 587px;
+   left: 0;
+   z-index: 1;
+}
+
+.equip-cert-bg-transparent {
+   position: absolute;
+   left: 0;
+   bottom: 0;
+   z-index: 1;
+   opacity: 0.7;
+}
+
+
+
 /*************************************************************************************************************************************
    # SERVICES
 *************************************************************************************************************************************/
@@ -242,7 +260,7 @@
    # Наши клиенты
 *************************************************************************************************************************************/
 .our-clients {
-   margin-bottom: 172px;
+   margin-bottom: 139px;
 }
 
 .our-clients__title {
@@ -287,6 +305,7 @@
    float: left;
    height: 100%;
    min-height: 1px;
+   cursor: pointer;
 }
 
 .slick-slide img {
@@ -303,6 +322,7 @@
 
 .prev-arrow {
    position: absolute;
+   cursor: pointer;
    top: 42%;
    left: -42px;
    z-index: 6;
@@ -310,6 +330,7 @@
 
 .next-arrow {
    position: absolute;
+   cursor: pointer;
    top: 42%;
    right: -42px;
    z-index: 6;
@@ -321,59 +342,70 @@
 
 
 
+.our-equipment__flex { position: relative; }
 
-
-
-.our-equip__title {
-   font-weight: var(--fw-700);
-   font-size: 25px;
-   line-height: 31px;
-   color: var(--grey-2D);
-
+.our-equipment__flex-item-img-wrapper {
    display: flex;
    justify-content: center;
-
-   margin-bottom: 94px;
-}
-
-.our-equip__flex {
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: center;
-   gap: 115px;
-
-   margin-bottom: 142px;
-}
-
-.our-equip__flex-item {
-   flex: 0 0 28%;
-   display: flex;
-   flex-direction: column;
-
-}
-
-.our-equip__flex-item-image {
-   height: 282px;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   border-radius: 30px;
-   border: 1px solid #CECECE;
-   box-shadow: 2px 5px 5px 2px rgba(206,206,206,0.75);
-   -webkit-box-shadow: 2px 5px 5px 2px rgba(206,206,206,0.75);
-   -moz-box-shadow: 2px 5px 5px 2px rgba(206,206,206,0.75);
    margin-bottom: 16px;
 }
 
-.our-equip__flex-item-txt {
-   font-weight: var(--fw-700);
+.our-equipment__flex-item-img {
+   width: 335px;
+   height: 258px;
+
+   background: #fff;
+   border: 1px solid #CECECE;
+   border-radius: 30px;
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+   box-shadow: -1px 2px 8px 0px #CECECE;
+   -webkit-box-shadow: -1px 2px 8px 0px #CECECE;
+   -moz-box-shadow: -1px 2px 8px 0px #CECECE;
+}
+
+.our-equipment-img {
+   border-radius: 30px;
+}
+
+.karcher-blue {
+   width: 246px;
+   height: 240px;
+}
+
+.our-equipement__flex-item-title {
+   font-weight: 700;
    font-size: 17px;
    line-height: 21px;
-   color: var(--grey-2D);
+   text-align: center;
 
    display: flex;
    justify-content: center;
 }
+
+.our-equipement__flex-item-title span {
+   width: 60%;
+}
+
+
+.our-equipment__outer {
+   padding-block: 60px 143px;
+}
+
+#karcher-gray {
+   width: 181px;
+   height: 239px;
+}
+
+
+
+
+
+
+
 
 
 /*************************************************************************************************************************************
