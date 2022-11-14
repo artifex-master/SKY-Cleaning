@@ -298,10 +298,11 @@ main section { position: relative; z-index: 100; background: transparent; }
    top: 0;
    left: 0;
    display: block;
+
 }
 
 .slick-slide {
-   display: none;
+   display: block;
    float: left;
    height: 100%;
    min-height: 1px;
@@ -310,6 +311,7 @@ main section { position: relative; z-index: 100; background: transparent; }
 
 .slick-slide img {
    display: block;
+   margin: 0 auto;
 }
 
 .slick-initialized .slick-slide {
@@ -402,12 +404,6 @@ main section { position: relative; z-index: 100; background: transparent; }
 
 
 
-
-
-
-
-
-
 /*************************************************************************************************************************************
    # Сертификаты
 *************************************************************************************************************************************/
@@ -444,6 +440,58 @@ main section { position: relative; z-index: 100; background: transparent; }
 
 .certificate-img {
    aspect-ratio: var(--width) / var(--height);
+}
+
+
+
+/*************************************************************************************************************************************
+   # ОТЗЫВЫ
+*************************************************************************************************************************************/
+
+.feedback__title {
+   width: 100%;
+   font-weight: 700;
+   font-size: 25px;
+   line-height: 30px;
+   text-align: center;
+   color: var(--grey-2D);
+   display: flex;
+   justify-content: center;
+   margin-bottom: 99px;
+}
+
+.feedback__flex-wrapper {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.feedback__flex-item {
+   flex: 0 0 25%;
+   margin-bottom: 99px;
+   display: flex;
+   justify-content: center;
+}
+
+.feedback__flex-slick {
+   display: none;
+}
+
+.feedback-arrow {
+   width: 13px;
+   height: 27px;
+}
+
+.feedback-slider-arrow-left {
+   position: absolute;
+   top: 20%;
+   left: -28px;
+}
+
+.feedback-slider-arrow-right {
+   position: absolute;
+   top: 20%;
+   right: -28px;
+
 }
 
 
