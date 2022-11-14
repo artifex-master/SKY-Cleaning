@@ -55,7 +55,75 @@ main section { position: relative; z-index: 100; background: transparent; }
 *************************************************************************************************************************************/
 .head {
    width: 100%;
-   padding-top: 62px;
+   padding-block-start: 22px; 
+}
+
+header {
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+}
+
+.header-menu {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 38px;
+}
+
+.header-menu a {
+   font-weight: 700px;
+   font-size: 17px;
+   line-height: 21px;
+   color: var(--black);
+   cursor: pointer;
+}
+
+.header-group {
+   display: flex;
+   gap: 47px;
+}
+
+.header-group__working-hours {
+   display: flex;
+   gap: 12px;
+}
+
+.working-hours-img {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.working-hours-txt {
+   font-weight: 700px;
+   font-size: 17px;
+   line-height: 21px;
+   color: var(--black);
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .head {
+   width: 100%;
+   padding-top: 32px;
    padding-bottom: 361px;
 }
 
@@ -96,9 +164,7 @@ main section { position: relative; z-index: 100; background: transparent; }
    color: var(--black);
 }
 
-/***********************************************************
-   # Header Mobile
-************************************************************/
+
 .head__header-mobile {
    border: 0;
    border-radius: 10px;
@@ -122,7 +188,7 @@ main section { position: relative; z-index: 100; background: transparent; }
 
 .head__header-mobile.active .line-first { transform: translateY(16px) rotate(45deg); }
 .head__header-mobile.active .line-second { visibility: hidden; transition: 0.01s; }
-.head__header-mobile.active .line-third { transform: translateY(-16px) rotate(-45deg); }
+.head__header-mobile.active .line-third { transform: translateY(-16px) rotate(-45deg); } */
 
 
 /***********************************************************
@@ -177,6 +243,7 @@ main section { position: relative; z-index: 100; background: transparent; }
 
 
 .head-services-bg-transparent {
+   width: 100%;
    position: absolute;
    top: 587px;
    left: 0;
@@ -184,11 +251,12 @@ main section { position: relative; z-index: 100; background: transparent; }
 }
 
 .equip-cert-bg-transparent {
+   width: 100%;
    position: absolute;
    left: 0;
-   bottom: 0;
+   top: 43%;
    z-index: 1;
-   opacity: 0.7;
+   opacity: 0.668;
 }
 
 
