@@ -64,7 +64,7 @@ main section { position: relative; z-index: 100; background: transparent; }
 .head {
    width: 100%;
    padding-block-start: 22px;
-   padding-block-end: 320px; 
+   padding-block-end: 450px; 
 }
 
 header {
@@ -294,7 +294,7 @@ header {
 .head-services-bg-transparent {
    width: 100%;
    position: absolute;
-   top: 587px;
+   top: 440px;
    left: 0;
    z-index: 1;
 }
@@ -303,7 +303,7 @@ header {
    width: 100%;
    position: absolute;
    left: 0;
-   top: 43%;
+   top: 38%;
    z-index: 1;
    opacity: 0.668;
 }
@@ -549,8 +549,14 @@ header {
 /*************************************************************************************************************************************
    # Сертификаты
 *************************************************************************************************************************************/
+.certificates {
+   background: linear-gradient(115.35deg, #196D8B 7.28%, #279AC2 32.84%, #196D8B 56.45%, #1F89AF 81.03%, #196D8B 101.68%);
+   margin-bottom: 79px;
+
+}
+
 .certificates__outer {
-   padding-block-end: 153px;
+   padding-block: 69px 89px;
 }
 
 .certificates__title {
@@ -558,7 +564,7 @@ header {
    font-size: 25px;
    line-height: 30px;
    text-align: center;
-   color: var(--grey-2D);
+   color: var(--white);
 
    display: flex;
    justify-content: center;
