@@ -63,7 +63,8 @@ main section { position: relative; z-index: 100; background: transparent; }
 *************************************************************************************************************************************/
 .head {
    width: 100%;
-   padding-block-start: 22px; 
+   padding-block-start: 22px;
+   padding-block-end: 320px; 
 }
 
 header {
@@ -130,7 +131,7 @@ header {
 .overlay.active {
    visibility: visible;
    opacity: 1;
-   z-index: 3;
+   z-index: 2;
 
 }
 
@@ -147,7 +148,7 @@ header {
    padding: 30px 20px;
    visibility: hidden;
    transition: 0.25s var(--cubic-out);
-   z-index: 4;
+   z-index:100;
 }
 
 .navbar.active {

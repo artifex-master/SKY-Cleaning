@@ -72,50 +72,26 @@
 
 
    .header-menu {
-      display: flex;
-      justify-content: center;
-      align-items: center;
       gap: 38px;
    }
    
    .header-menu a {
-      font-weight: 700px;
       font-size: 14px;
       line-height: 21px;
-      color: var(--black);
-      cursor: pointer;
    }
    
    .header-group {
-      display: flex;
       gap: 37px;
    }
    
    .header-group__working-hours {
-      display: flex;
       gap: 12px;
    }
    
-   .working-hours-img {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-   }
    
    .working-hours-txt {
-      font-weight: 700px;
       font-size: 14px;
       line-height: 21px;
-      color: var(--black);
-   
-      display: flex;
-      justify-content: center;
-      align-items: center;
-   }
-
-   .header-group-img {
-      width: 34px;
-      height: 33px;
    }
 
    .head-hero__title {
@@ -147,45 +123,25 @@
 
 
    .header-menu {
-      display: flex;
-      justify-content: center;
-      align-items: center;
       gap: 38px;
    }
    
    .header-menu a {
-      font-weight: 700px;
       font-size: 13px;
       line-height: 21px;
-      color: var(--black);
-      cursor: pointer;
    }
    
    .header-group {
-      display: flex;
       gap: 35px;
    }
    
    .header-group__working-hours {
-      display: flex;
       gap: 12px;
    }
    
-   .working-hours-img {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-   }
-   
    .working-hours-txt {
-      font-weight: 700px;
       font-size: 13px;
       line-height: 21px;
-      color: var(--black);
-   
-      display: flex;
-      justify-content: center;
-      align-items: center;
    }
 
    .header-group-img {
@@ -223,45 +179,25 @@
 
 
    .header-menu {
-      display: flex;
-      justify-content: center;
-      align-items: center;
       gap: 38px;
    }
    
    .header-menu a {
-      font-weight: 700px;
       font-size: 12px;
       line-height: 21px;
-      color: var(--black);
-      cursor: pointer;
    }
    
    .header-group {
-      display: flex;
       gap: 33px;
    }
    
    .header-group__working-hours {
-      display: flex;
       gap: 12px;
    }
    
-   .working-hours-img {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-   }
-   
    .working-hours-txt {
-      font-weight: 700px;
       font-size: 12px;
       line-height: 21px;
-      color: var(--black);
-   
-      display: flex;
-      justify-content: center;
-      align-items: center;
    }
 
    .header-group-img {
@@ -298,45 +234,25 @@
 
 
    .header-menu {
-      display: flex;
-      justify-content: center;
-      align-items: center;
       gap: 38px;
    }
    
    .header-menu a {
-      font-weight: 700px;
       font-size: 11px;
       line-height: 21px;
-      color: var(--black);
-      cursor: pointer;
    }
    
    .header-group {
-      display: flex;
       gap: 31px;
    }
    
    .header-group__working-hours {
-      display: flex;
       gap: 12px;
    }
    
-   .working-hours-img {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-   }
-   
    .working-hours-txt {
-      font-weight: 700px;
       font-size: 11px;
       line-height: 21px;
-      color: var(--black);
-   
-      display: flex;
-      justify-content: center;
-      align-items: center;
    }
 
    .header-group-img {

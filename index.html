@@ -51,79 +51,159 @@
 </head>
    <body>
       <main>
-         <!--------------------------------------------------------------------------------------------
-            # Шапка  
-         ----------------------------------------------------------------------------------------------->
-         <!-- <section class="head">
+         <!---------------------------------------------------------------------------------------------------------------------
+            # "HEAD"
+         ---------------------------------------------------------------------------------------------------------------------->
+         <section class="head">
             <div class="main-container">
                <div class="head__outer">
-                  <div class="head__header">
-                     <div class="head__header-logo">
-                        <a href="#"><img width="148" height="88" class="logo" src="./assets/images/logo.png" alt="logo" /></a>
-                     </div>
-                     <div class="head__header-info" data-header-info>
-
-                        <div class="header-info-working-hours">
-                           <img width="43" height="43" src="./assets/images/icons/header-timing.png" alt="Header timing" />
-                           <div class="header-info-working-hours__txt-data">
-                              <span>График работы:</span>
-                              <span>Пн-Сб с 8:00 до 18:00</span>
-                           </div>
+                  <div class="head__inner">
+                     <header>
+                        <!----------------------------------------------------
+                           # Logo
+                        ----------------------------------------------------->
+                        <div class="head__logo">
+                           <a href="#"><img class="logo" src="./assets/images/logo.png" alt="Logo" /></a>
                         </div>
-         
 
-                        <div class="header-info-tel">
-                           <img width="45" height="43" src="./assets/images/icons/header-tel.png" alt="Header Telephone" />
-                           <div class="header-info-tel__txt-data">
-                              <span>+7 708 99 57 57</span>
+                        <!----------------------------------------------------
+                           # Menu
+                        -----------------------------------------------------> 
+                        <ul class="header-menu">
+                           <a href="#"><li>Услуги</li></a>
+                           <a href="#"><li>Клиенты</li></a>
+                           <a href="#"><li>Оборудование</li></a>
+                           <a href="#"><li>Сертификаты</li></a>
+                           <a href="#"><li>Отзывы</li></a>
+                           <a href="#"><li>Контакты</li></a>
+                        </ul>     
+                        
+                        <!----------------------------------------------------
+                           # График работы и номер телефона
+                        ----------------------------------------------------->  
+                        <div class="header-group">
+                           <div class="header-group__working-hours">
+                              <div class="working-hours-img">
+                                 <img class="header-group-img" src="./assets/images/icons/header-timing.png" alt="Грфик работы">
+                              </div>
+                              <div class="working-hours-txt">
+                                 <span>График работы:<br>Пн-Сб с 8:00 до 18:00</span>
+                              </div>
                            </div>
-         
+                           <div class="header-group__working-hours">
+                              <div class="working-hours-img">
+                                 <img class="header-group-img" src="./assets/images/icons/header-tel.png" alt="Номер телефона">
+                              </div>
+                              <div class="working-hours-txt">
+                                 <span>+7 708 99 57 57</span>
+                              </div>
+                           </div>
+                        </div>  
+
+                        <!----------------------------------------------------
+                           # Mobile-nav
+                        -----------------------------------------------------> 
+                        <nav class="navbar" data-navbar>
+                           <div class="navbar-logo-close">
+                              <img class="logo" src="./assets/images/logo.png" alt="Logo.png" />
+
+                              <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+                                 <ion-icon name="close-outline"></ion-icon>
+                              </button>
+                           </div>
+
+                           <ul class="navbar-list">
+                              <li>
+                                 <a href="#services" class="navbar-link" data-nav-link>Услуги</a>
+                              </li>
+                              <li>
+                                 <a href="#our-clients" class="navbar-link" data-nav-link>Наши клиенты</a>
+                              </li>
+                              <li>
+                                 <a href="#our-equipment" class="navbar-link" data-nav-link>Наше оборудование</a>
+                              </li>
+                              <li>
+                                 <a href="#certificates" class="navbar-link" data-nav-link>Сертификаты</a>
+                              </li>
+                              <li>
+                                 <a href="#feedback" class="navbar-link" data-nav-link>отзывы</a>
+                              </li>
+                           </ul>
+
+                           <div class="navbar-group">
+                              <div class="navbar-group__working-hours">
+                                 <div class="navbar-group__working-hours-img">
+                                    <img class="navbar-group__img" src="./assets/images/icons/header-timing.png" alt="График работы" />
+                                 </div>
+                                 <div class="navbar-group__working-hours-txt">
+                                    <span>График работы:<br/>Пн - Сб с 8:00 до 18:00</span>
+                                 </div>
+                              </div>
+
+                              <div class="navbar-group__phone">
+                                 <div class="navbar-group__phone-img">
+                                    <img class="navbar-group-phone-img" src="./assets/images/icons/header-tel.png" alt="Номер телефона" />
+                                 </div>
+                                 <div class="navbar-group__phone-txt">
+                                    <span>+7 708 99 57 57</span>
+                                 </div>
+                              </div>
+                           </div>
+                        </nav>
+                        
+                        <!----------------------------------------------------
+                           # Меню-бургер
+                        -----------------------------------------------------> 
+                        <button class="nav-open-btn" aria-label="open-menu" data-nav-toggler>
+                           <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+                        </button>
+
+                        <!----------------------------------------------------
+                           # Overlay
+                        -----------------------------------------------------> 
+                        <div class="overlay" data-nav-toggler data-overlay></div>
+                     </header>
+                     <div class="head-hero">
+                        <!---------------------------------------------------------------------------------------------------
+                           # Заголовок
+                        ---------------------------------------------------------------------------------------------------->
+                        <div class="head-hero__title">
+                           <span>Профессиональная клининговая служба в Актау</span>
                         </div>
-                        
-                        
+
+                        <!---------------------------------------------------------------------------------------------------
+                           # Суб-заголовок
+                        ---------------------------------------------------------------------------------------------------->                  
+                        <div class="head-hero__subtitle">
+                           <p>Качественная уборка квартир и офисов</p>
+                        </div>
+
+                        <!---------------------------------------------------------------------------------------------------
+                           # Кнопка "Заказать"
+                        ---------------------------------------------------------------------------------------------------->
+                        <button class="btn-primary">Заказать</button>
+
+                        <!---------------------------------------------------------------------------------------------------
+                           # Картинка
+                        ---------------------------------------------------------------------------------------------------->
+                        <div class="hero-img">
+                           <img id="hero-png" src="./assets/images/head__main-img.png" alt="Картинка в шапке">
+                        </div>
+
+                        <!---------------------------------------------------------------------------------------------------
+                           # Картинка (Mobile)
+                        ---------------------------------------------------------------------------------------------------->
+                        <div class="hero-img-mobile">
+                           <img src="./assets/images/head__main-woman-img.png" alt="Head-Hero-Mobile.png">
+                        </div>                  
+
                      </div>
-         
 
-                     <div class="head__header-mobile" data-header-mobile>
-                        <span class="header-mobile-line line-first"></span>
-                        <span class="header-mobile-line line-second"></span>
-                        <span class="header-mobile-line line-third"></span>
-                     </div>     
-                     
-
-                     <div class="overlay" data-overlay></div>
-         
-                  </div>
-
-                  <div class="head__main">
-
-                     <div class="head__main-title">
-                        <span>Профессиональная клининговая служба в Актау</span>
-                     </div>
-
- 
-                     <div class="head__main-subtitle">
-                        <span>Качественная уборка квартир и офисов</span>
-                     </div>                
-                     
-
-                     <button class="btn-primary">Заказать</button>
-
-   
-                     <img class="head__main-img" src="./assets/images/head__main-img.png" alt="Главное изображание" />
-                     
-                     <div class="head__main-img-holder">
-                        <div class="head__main-img-overlay"></div>
-                        <img class="head__main-woman-img" src="./assets/images/head__main-woman-img.png" alt="Изображение mobile" />               
-                     </div>
-                     
 
                   </div>
-
                </div>
             </div>
-
-         </section> -->
+         </section>
 
          <!--------------------------------------------------------------------------------------------
             # Услуги  
@@ -618,45 +698,51 @@
 
       </script>
 
-   <script>
-      $(document).ready(function() {
-         $(".feedback__flex-slick").slick({
-            responsive: [{
-               breakpoint: 10000,
-               settings: "unslick"
-            }, {
-               breakpoint: 901,
-               settings: {
-                  slidesToShow: 3,
-                  slidesToScroll: 1,
-                  autoplay: true,
-                  autoplaySpeed: 1500,
-                  arrows: true,
-                  dots: false,
-                  pauseOnHover: false,
-                  prevArrow: '<span class="feedback-slider-arrow-left"><img class="feedback-arrow" src="../assets/images/icons/arrow-left.png" alt="arrow-left" /></span>',
-                  nextArrow: '<span class="feedback-slider-arrow-right"><img class="feedback-arrow" src="../assets/images/icons/arrow-right.png" alt="arrow-right" /></span>'
+      <script>
+         $(document).ready(function() {
+            $(".feedback__flex-slick").slick({
+               responsive: [{
+                  breakpoint: 10000,
+                  settings: "unslick"
+               }, {
+                  breakpoint: 901,
+                  settings: {
+                     slidesToShow: 3,
+                     slidesToScroll: 1,
+                     autoplay: true,
+                     autoplaySpeed: 1500,
+                     arrows: true,
+                     dots: false,
+                     pauseOnHover: false,
+                     prevArrow: '<span class="feedback-slider-arrow-left"><img class="feedback-arrow" src="../assets/images/icons/arrow-left.png" alt="arrow-left" /></span>',
+                     nextArrow: '<span class="feedback-slider-arrow-right"><img class="feedback-arrow" src="../assets/images/icons/arrow-right.png" alt="arrow-right" /></span>'
 
-               }
-            }, {
-               breakpoint: 820,
-               settings: {
-                  slidesToShow: 1,
-                  slidesToScroll: 1,
-                  // autoplay: true,
-                  autoplaySpeed: 1500,
-                  arrows: true,
-                  dots: false,
-                  pauseOnHover: false,
-                  prevArrow: '<span class="feedback-slider-arrow-left"><img class="feedback-arrow" src="../assets/images/icons/arrow-left.png" alt="arrow-left" /></span>',
-                  nextArrow: '<span class="feedback-slider-arrow-right"><img class="feedback-arrow" src="../assets/images/icons/arrow-right.png" alt="arrow-right" /></span>'                  
-               }
-            }]
+                  }
+               }, {
+                  breakpoint: 820,
+                  settings: {
+                     slidesToShow: 1,
+                     slidesToScroll: 1,
+                     // autoplay: true,
+                     autoplaySpeed: 1500,
+                     arrows: true,
+                     dots: false,
+                     pauseOnHover: false,
+                     prevArrow: '<span class="feedback-slider-arrow-left"><img class="feedback-arrow" src="../assets/images/icons/arrow-left.png" alt="arrow-left" /></span>',
+                     nextArrow: '<span class="feedback-slider-arrow-right"><img class="feedback-arrow" src="../assets/images/icons/arrow-right.png" alt="arrow-right" /></span>'                  
+                  }
+               }]
 
+            });
          });
-      });
 
-   </script>
+      </script>
+
+      <!----------------------------------------------------------------------------------------------------
+         # ion-icon link
+      ------------------------------------------------------------------------------------------------------>
+      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
    </body>
    <footer>
