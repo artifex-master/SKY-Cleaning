@@ -251,88 +251,6 @@ header {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-/* .head {
-   width: 100%;
-   padding-top: 32px;
-   padding-bottom: 361px;
-}
-
-.head__header { 
-   display: flex;
-   justify-content: space-between; 
-   position: relative;
-
-   margin-bottom: 164px;
-}
-
-.head__header-info {
-   display: flex;
-   gap: 87px;
-}
-
-.header-info-working-hours {
-   font-weight: var(--fw-300);
-   font-size: 17px;
-   line-height: 21px;
-   color: var(--black);
-
-   display: flex;
-   gap: 12px;
-}
-
-.header-info-working-hours__txt-data {
-   display: flex;
-   flex-direction: column;
-}
-
-.header-info-tel { display: flex; gap: 12px; }
-
-.header-info-tel__txt-data {
-   font-weight: var(--fw-300);
-   font-size: 17px;
-   line-height: 21px;
-   color: var(--black);
-}
-
-
-.head__header-mobile {
-   border: 0;
-   border-radius: 10px;
-   opacity: 1;
-
-   position: absolute;
-   top: 20px;
-   right: 0;
-
-   display: none;
-}
-
-.header-mobile-line {
-   width: 44px;
-   height: 3px;
-   transition: 0.25s ease;
-
-   border: 0;
-   background: var(--black);
-}
-
-.head__header-mobile.active .line-first { transform: translateY(16px) rotate(45deg); }
-.head__header-mobile.active .line-second { visibility: hidden; transition: 0.01s; }
-.head__header-mobile.active .line-third { transform: translateY(-16px) rotate(-45deg); } */
-
-
 /***********************************************************
    # Header Overlay
 ************************************************************/
@@ -396,8 +314,17 @@ header {
    # SERVICES
 *************************************************************************************************************************************/
 .services {
+   width: 100%;
+   background: linear-gradient(115.35deg, #196D8B 7.28%, #279AC2 32.84%, #196D8B 56.45%, #1F89AF 81.03%, #196D8B 101.68%);
+   
    position: relative;
+   z-index: 3;
    margin-bottom: 98px;
+}
+
+.services__outer {
+   width: 100%;
+   padding-block: 60px;
 }
 
 
@@ -405,7 +332,7 @@ header {
    font-weight: var(--fw-700);
    font-size: 25px;
    line-height: 30px;
-   color: var(--grey-2D);
+   color: var(--white);
 
    display: flex;
    justify-content: center;
@@ -439,7 +366,7 @@ header {
    font-size: 17px;
    line-height: 21px;
    text-align: center;
-   color: var(--grey-2D);
+   color: var(--white);
 
    display: flex;
    justify-content: center;
@@ -452,6 +379,22 @@ header {
 .services__btn {
    display: flex;
    justify-content: center;
+}
+
+
+
+.droplets-top-wrapper {
+   position: absolute;
+   top: -60px;
+   right: 0;
+   z-index: -1;
+}
+
+.droplets-bottom-wrapper {
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   z-index: -1;
 }
 
 
