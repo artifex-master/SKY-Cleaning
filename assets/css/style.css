@@ -21,6 +21,14 @@
    --fw-800: 800;
    --fw-900: 900;
 
+   /***********************************************************
+      # Transition
+   ************************************************************/
+   --transition-1: 0.25s ease;
+   --cubic-out: cubic-bezier(0.33, 0.85, 0.4, 0.96);
+
+
+
 }
 
 
@@ -106,7 +114,140 @@ header {
    align-items: center;
 }
 
+.nav-open-btn {
+   display: none;
+}
 
+.overlay {
+   position: fixed;
+   inset: 0;
+   background-color: hsla(0, 0%, 100%, 0.7);
+   opacity: 0;
+   transition: var(--transition-1);
+   z-index: -1;
+}
+
+.overlay.active {
+   visibility: visible;
+   opacity: 1;
+   z-index: 3;
+
+}
+
+
+.navbar {
+   position: fixed;
+   top: 0;
+   left: -280px;
+   max-width: 280px;
+   width: 100%;
+   height: 100%;
+   background-color: var(--grey-2D);
+   color: var(--white);
+   padding: 30px 20px;
+   visibility: hidden;
+   transition: 0.25s var(--cubic-out);
+   z-index: 4;
+}
+
+.navbar.active {
+   visibility: visible;
+   transform: translateX(280px);
+   transition-duration: 0.5s;
+}
+
+.nav-close-btn { 
+   color: var(--white); 
+   font-size: 30px;
+}
+
+.navbar .navbar-logo-close{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin-block-end: 25px;
+}
+
+.navbar-link {
+   color: var(--white);
+   padding-block: 10px;
+   transition: var(--transition-1);
+}
+
+.navbar-group {
+   display: flex;
+   flex-direction: column;
+   gap: 12px;
+   position: absolute;
+   bottom: 20px;
+   left: 20px;
+
+}
+
+.navbar-group__working-hours, .navbar-group__phone{
+   display: flex;
+   gap: 12px;
+}
+
+.navbar-group__working-hours-txt, .navbar-group__phone-txt {
+   color: var(--white);
+   font-size: 15px;
+}
+
+.navbar-group__img, .navbar-group-phone-img {
+   width: 28px;
+   height: 27px;
+}
+
+.navbar-group__phone-txt {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.head-hero {
+   width: 100%;
+   padding-top: 175px;
+   position: relative;
+}
+
+
+
+.head-hero__title {
+   font-weight: 700;
+   font-size: 50px;
+   line-height: 61px;
+   color:var(--grey-2D);
+   margin-bottom: 9px;
+}
+
+.head-hero__title span {
+   width: 60%;
+}
+
+.head-hero__subtitle {
+   font-weight: 400;
+   font-size: 30px;
+   line-height: 37px;
+   color: var(--grey-2D);
+
+   margin-bottom: 41px;
+}
+
+.hero-img {
+   position: absolute;
+   top: 100px;
+   right: 0;
+}
+
+.hero-img-mobile {
+   display: none;
+   position: absolute;
+   z-index: -1;
+   opacity: 0.6;
+   top: 77px;
+   right: 0;
+}
 
 
 
@@ -194,17 +335,6 @@ header {
 /***********************************************************
    # Header Overlay
 ************************************************************/
-.overlay {
-   width: 100%;
-   height: 100vh;
-   position: fixed;
-   background: var(--white);
-   top: 140px;
-   left: 0;
-   opacity: 0;
-   z-index: -1;
-}
-
 .head__main {
    position: relative;
 }
