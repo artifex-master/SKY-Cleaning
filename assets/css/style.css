@@ -719,6 +719,10 @@ footer {
    padding-top: 3px;  
 }
 
+.footer__right-contacts-line-phone span a {
+   color: var(--white);
+}
+
 .footer__right-contacts-social-icons {
    margin-top: 79px;
    display: flex;
