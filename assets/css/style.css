@@ -39,6 +39,14 @@
 main { position: relative; }
 main section { position: relative; z-index: 100; background: transparent; } 
 
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: var(--grey-d9); }
+::-webkit-scrollbar-thumb {
+  height: 220px;
+  border-radius: 8px;
+  background: var(--orange);
+}
+
 /***********************************************************
    # Buttons
 ************************************************************/
