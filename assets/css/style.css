@@ -115,6 +115,10 @@ header {
    align-items: center;
 }
 
+.working-hours-txt span a {
+   color: var(--black);
+}
+
 .nav-open-btn {
    display: none;
 }
@@ -198,6 +202,10 @@ main > section {
 .navbar-group__working-hours-txt, .navbar-group__phone-txt {
    color: var(--white);
    font-size: 15px;
+}
+
+.navbar-group__phone-txt span a {
+   color: var(--white);
 }
 
 .navbar-group__img, .navbar-group-phone-img {

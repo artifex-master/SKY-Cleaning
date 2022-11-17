@@ -26,6 +26,11 @@
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
+   <!---------------------------------------------------------------------------------------------
+      # Favicon  
+   -----------------------------------------------------------------------------------------------> 
+   <link rel="shortcut icon" href="./favicon.png" type="image/x-icon">
+
 
    <!---------------------------------------------------------------------------------------------
       # Link to JQuery CDN  
@@ -51,8 +56,27 @@
    ----------------------------------------------------------------------------------------------->
    <title>SKY Cleaning</title>
 
+         <!-- Yandex.Metrika counter -->
+         <script type="text/javascript" >
+            (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+            m[i].l=1*new Date();
+            for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+            k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+            (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+   
+            ym(91232614, "init", {
+               clickmap:true,
+               trackLinks:true,
+               accurateTrackBounce:true,
+               webvisor:true
+            });
+         </script>
+         <noscript><div><img src="https://mc.yandex.ru/watch/91232614" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+         <!-- /Yandex.Metrika counter -->
+
 </head>
    <body>
+
       <main>
 
          <!----------------------------------------------------
@@ -100,7 +124,7 @@
                                     <img class="navbar-group-phone-img" src="./assets/images/icons/header-tel.png" alt="Номер телефона" />
                                  </div>
                                  <div class="navbar-group__phone-txt">
-                                    <span>+7 708 99 57 57</span>
+                                    <span><a href="tel:+7708995757" target="_blank">+7 708 99 57 57</a></span>
                                  </div>
                               </div>
                            </div>
@@ -153,7 +177,7 @@
                                  <img class="header-group-img" src="./assets/images/icons/header-tel.png" alt="Номер телефона">
                               </div>
                               <div class="working-hours-txt">
-                                 <span>+7 708 99 57 57</span>
+                                 <span><a href="tel:+7708995757">+7 708 99 57 57</a></span>
                               </div>
                            </div>
                         </div>  
@@ -833,7 +857,7 @@
                      <div class="footer__right-contacts-line">
                         <img src="./assets/images/icons/footer-phone.png" alt="Иконка телефона" />
                         <div class="footer__right-contacts-line-phone">
-                           <span><a href="https://wa.me/77754660144" target="_blank">+7(707) 284 78 44</a></span>
+                           <span><a href="tel:+77754660144" target="_blank">+7(707) 284 78 44</a></span>
                         </div>
                      </div>  
                      
@@ -842,15 +866,19 @@
                         <div class="footer__right-contacts-line-phone">
                            <span>@sky_cleaning.aktau</span>
                         </div>
-                     </div>    
+                     </div>  
+                     
+                     
                      
                      <!------------- Иконки ---------------->
                      <div class="footer__right-contacts-social-icons">
                         <!------ WhatsApp ------>
-                        <i href="#" class="fa fa-whatsapp"></i>
-                        <i href="#" class="fa fa-instagram"></i>
-                        <i href="#" class="fa fa-facebook"></i>
-                        <i href="#" class="fa fa-youtube"></i>
+                        <form action="https://wa.me/77754660144" target="_blank" method="get">
+                           <button><i class="fa fa-whatsapp"></i></button>
+                        </form>
+                        <a href="https://www.instagram.com/sky_cleaning.aktau/"><i href="" class="fa fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=100083308954240"><i href="" class="fa fa-facebook"></i></a>
+                        <a href="https://www.youtube.com/channel/UCus4t5V-BVBwSDwpREvcRiQ/videos"><i class="fa fa-youtube"></i></a>
                      </div>
 
                   </div>
